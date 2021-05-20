@@ -1,0 +1,38 @@
+<application>
+  <component name="ProjectPluginTrackerManager">
+    <trackers>
+      <map>
+        <entry key="1sUG7IzN8PY2kp6sdXKKCztVwbF">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="1sULiVrGkAyr1FcryVZWILXIx9H">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DBE.Init.Cfg.1" value="true" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="SettingsSearchHistory" value="font" />
+    <property name="appcds.runOnSecondStart" value="DB-211.7142.37-e02ceae92eec48a748faed84d11ccd2bbc5bed267322572ef30c7b970b66566a" />
+    <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="evlsprt3.211" value="12" />
+    <property name="file.gist.reindex.count" value="35" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector" />
+    <property name="got.it.tooltip.database.schema.control.got.it" value="1" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ide.updates.previous.build.number" value="DB-211.7142.37" />
+    <property name="lastSeenTip" value="neue-PostfixCompletion.html" />
+    <property name="lastTimeTipsWereShown" value="1621180126086" />
+    <property name="seenTips" value="neue-CtrlDotInLookups.html,neue-data_editor_a_separate_editor_for_cell_values.html,neue-PostfixCompletion.html" />
+  </component>
+  <component name="ToolbarSettingsService">
+    <option name="NEW_TOOLBAR_SETTINGS" value="OLD_NAVBAR" />
+  </component>
+</application>

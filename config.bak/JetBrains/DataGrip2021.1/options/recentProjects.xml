@@ -1,0 +1,32 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$APPLICATION_CONFIG_DIR$/projects/PV">
+          <value>
+            <RecentProjectMetaInfo frameTitle="PV – Test" projectWorkspaceId="1sUG7IzN8PY2kp6sdXKKCztVwbF">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="DB-211.7142.37" />
+              <option name="buildTimestamp" value="1619559374826" />
+              <frame x="0" y="1440" width="5120" height="1418" />
+              <option name="productionCode" value="DB" />
+              <option name="projectOpenTimestamp" value="1620919586807" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/projects/test2">
+          <value>
+            <RecentProjectMetaInfo frameTitle="test2 – accounts" opened="true" projectWorkspaceId="1sULiVrGkAyr1FcryVZWILXIx9H">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="DB-211.7142.37" />
+              <option name="buildTimestamp" value="1619559404732" />
+              <frame x="2150" y="1466" width="2972" height="707" />
+              <option name="productionCode" value="DB" />
+              <option name="projectOpenTimestamp" value="1620922348108" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

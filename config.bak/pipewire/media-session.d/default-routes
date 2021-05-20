@@ -1,0 +1,14 @@
+{
+  "default.route.alsa_card.pci-0000_01_00.1:profile:off": [ ],
+  "default.route.alsa_card.pci-0000_00_1f.3:profile:off": [ ],
+  "default.route.alsa_card.pci-0000_01_00.1:profile:output:hdmi-stereo": [ "hdmi-output-0" ],
+  "default.route.alsa_card.pci-0000_00_1f.3:profile:output:analog-stereo": [ "analog-output-lineout" ],
+  "default.route.alsa_card.pci-0000_00_1f.3:output:analog-output-lineout": { "mute": false, "volumes": [ 0.274675, 0.274675 ], "channels": [ "FL", "FR" ] },
+  "default.route.alsa_card.pci-0000_01_00.1:output:hdmi-output-0": { "mute": true, "volumes": [ 0.399992, 0.399992 ], "channels": [ "FL", "FR" ] },
+  "default.route.alsa_card.pci-0000_01_00.1:profile:output:hdmi-stereo-extra1": [ "hdmi-output-0" ],
+  "default.route.alsa_card.usb-Logitech_G935_Gaming_Headset-00:profile:off": [ ],
+  "default.route.alsa_card.usb-Logitech_G935_Gaming_Headset-00:profile:output:analog-stereo+input:mono-fallback": [ "analog-input-mic", "analog-output" ],
+  "default.route.alsa_card.usb-Logitech_G935_Gaming_Headset-00:input:analog-input-mic": { "mute": false, "volumes": [ 1.000000 ], "channels": [ "MONO" ] },
+  "default.route.alsa_card.pci-0000_00_1f.3:output:analog-output-headphones": { "mute": false, "volumes": [ 0.384781, 0.384781 ], "channels": [ "FL", "FR" ] },
+  "default.route.alsa_card.usb-Logitech_G935_Gaming_Headset-00:output:analog-output": { "mute": false, "volumes": [ 0.215974, 0.215974 ], "channels": [ "FL", "FR" ] }
+}

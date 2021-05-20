@@ -1,0 +1,339 @@
+{"level":30,"time":"2021-05-17T10:45:38.339Z","pid":721,"hostname":"HotTubTimeMachine","msg":"app ready"}
+{"level":30,"time":"2021-05-17T10:45:38.339Z","pid":721,"hostname":"HotTubTimeMachine","msg":"starting version 5.1.0"}
+{"level":30,"time":"2021-05-17T10:45:38.339Z","pid":721,"hostname":"HotTubTimeMachine","msg":"media access status"}
+{"level":30,"time":"2021-05-17T10:45:38.349Z","pid":721,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-17T10:45:38.350Z","pid":721,"hostname":"HotTubTimeMachine","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1718,\"height\":1390,\"minWidth\":680,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"enableRemoteModule\":true,\"preload\":\"/usr/lib/signal-desktop/resources/app.asar/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"/usr/lib/signal-desktop/resources/app.asar/images/signal-logo-desktop-linux.png\",\"x\":2618,\"y\":50}"}
+{"level":30,"time":"2021-05-17T10:45:38.404Z","pid":721,"hostname":"HotTubTimeMachine","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-05-17T10:45:38.404Z","pid":721,"hostname":"HotTubTimeMachine","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-05-17T10:45:38.404Z","pid":721,"hostname":"HotTubTimeMachine","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-05-17T10:45:38.416Z","pid":721,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-17T10:45:38.425Z","pid":721,"hostname":"HotTubTimeMachine","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-05-17T10:45:38.431Z","pid":721,"hostname":"HotTubTimeMachine","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-05-17T10:45:38.432Z","pid":721,"hostname":"HotTubTimeMachine","msg":"Finish ensuring permissions in 6ms"}
+{"level":30,"time":"2021-05-17T10:45:39.520Z","pid":721,"hostname":"HotTubTimeMachine","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-05-17T10:45:39.533Z","pid":721,"hostname":"HotTubTimeMachine","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-05-17T10:45:39.533Z","pid":721,"hostname":"HotTubTimeMachine","msg":"showing main window"}
+{"level":30,"time":"2021-05-17T10:45:40.002Z","pid":721,"hostname":"HotTubTimeMachine","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-05-17T10:45:40.025Z","pid":721,"hostname":"HotTubTimeMachine","msg":"App loaded - time: 1769"}
+{"level":30,"time":"2021-05-17T10:45:40.025Z","pid":721,"hostname":"HotTubTimeMachine","msg":"SQL init - time: 45"}
+{"level":30,"time":"2021-05-17T10:45:40.025Z","pid":721,"hostname":"HotTubTimeMachine","msg":"Preload - time: 622"}
+{"level":30,"time":"2021-05-17T10:45:40.025Z","pid":721,"hostname":"HotTubTimeMachine","msg":"WebSocket connect - time: 695"}
+{"level":30,"time":"2021-05-17T10:45:40.025Z","pid":721,"hostname":"HotTubTimeMachine","msg":"Processed count: 0"}
+{"level":30,"time":"2021-05-17T10:45:40.025Z","pid":721,"hostname":"HotTubTimeMachine","msg":"Messages per second: 0"}
+{"level":30,"time":"2021-05-17T10:45:40.066Z","pid":721,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-17T10:45:40.067Z","pid":721,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-17T11:33:16.892Z","pid":721,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-17T11:33:16.893Z","pid":721,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-17T11:33:20.848Z","pid":721,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-17T11:33:20.848Z","pid":721,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-17T12:55:13.227Z","pid":697,"hostname":"HotTubTimeMachine","msg":"app ready"}
+{"level":30,"time":"2021-05-17T12:55:13.227Z","pid":697,"hostname":"HotTubTimeMachine","msg":"starting version 5.1.0"}
+{"level":30,"time":"2021-05-17T12:55:13.227Z","pid":697,"hostname":"HotTubTimeMachine","msg":"media access status"}
+{"level":30,"time":"2021-05-17T12:55:13.238Z","pid":697,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-17T12:55:13.238Z","pid":697,"hostname":"HotTubTimeMachine","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1145,\"height\":1390,\"minWidth\":680,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"enableRemoteModule\":true,\"preload\":\"/usr/lib/signal-desktop/resources/app.asar/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"/usr/lib/signal-desktop/resources/app.asar/images/signal-logo-desktop-linux.png\",\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-17T12:55:13.281Z","pid":697,"hostname":"HotTubTimeMachine","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-05-17T12:55:13.281Z","pid":697,"hostname":"HotTubTimeMachine","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-05-17T12:55:13.281Z","pid":697,"hostname":"HotTubTimeMachine","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-05-17T12:55:13.289Z","pid":697,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-17T12:55:13.297Z","pid":697,"hostname":"HotTubTimeMachine","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-05-17T12:55:13.300Z","pid":697,"hostname":"HotTubTimeMachine","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-05-17T12:55:13.301Z","pid":697,"hostname":"HotTubTimeMachine","msg":"Finish ensuring permissions in 4ms"}
+{"level":30,"time":"2021-05-17T12:55:14.384Z","pid":697,"hostname":"HotTubTimeMachine","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-05-17T12:55:14.388Z","pid":697,"hostname":"HotTubTimeMachine","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-05-17T12:55:14.389Z","pid":697,"hostname":"HotTubTimeMachine","msg":"showing main window"}
+{"level":30,"time":"2021-05-17T12:55:14.832Z","pid":697,"hostname":"HotTubTimeMachine","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-05-17T12:55:14.853Z","pid":697,"hostname":"HotTubTimeMachine","msg":"App loaded - time: 1710"}
+{"level":30,"time":"2021-05-17T12:55:14.853Z","pid":697,"hostname":"HotTubTimeMachine","msg":"SQL init - time: 44"}
+{"level":30,"time":"2021-05-17T12:55:14.853Z","pid":697,"hostname":"HotTubTimeMachine","msg":"Preload - time: 624"}
+{"level":30,"time":"2021-05-17T12:55:14.853Z","pid":697,"hostname":"HotTubTimeMachine","msg":"WebSocket connect - time: 660"}
+{"level":30,"time":"2021-05-17T12:55:14.853Z","pid":697,"hostname":"HotTubTimeMachine","msg":"Processed count: 0"}
+{"level":30,"time":"2021-05-17T12:55:14.853Z","pid":697,"hostname":"HotTubTimeMachine","msg":"Messages per second: 0"}
+{"level":30,"time":"2021-05-17T12:55:14.950Z","pid":697,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-17T12:55:14.950Z","pid":697,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-17T12:56:18.053Z","pid":682,"hostname":"HotTubTimeMachine","msg":"app ready"}
+{"level":30,"time":"2021-05-17T12:56:18.054Z","pid":682,"hostname":"HotTubTimeMachine","msg":"starting version 5.1.0"}
+{"level":30,"time":"2021-05-17T12:56:18.054Z","pid":682,"hostname":"HotTubTimeMachine","msg":"media access status"}
+{"level":30,"time":"2021-05-17T12:56:18.063Z","pid":682,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-17T12:56:18.064Z","pid":682,"hostname":"HotTubTimeMachine","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1145,\"height\":1390,\"minWidth\":680,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"enableRemoteModule\":true,\"preload\":\"/usr/lib/signal-desktop/resources/app.asar/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"/usr/lib/signal-desktop/resources/app.asar/images/signal-logo-desktop-linux.png\",\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-17T12:56:18.111Z","pid":682,"hostname":"HotTubTimeMachine","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-05-17T12:56:18.111Z","pid":682,"hostname":"HotTubTimeMachine","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-05-17T12:56:18.111Z","pid":682,"hostname":"HotTubTimeMachine","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-05-17T12:56:18.119Z","pid":682,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-17T12:56:18.127Z","pid":682,"hostname":"HotTubTimeMachine","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-05-17T12:56:18.130Z","pid":682,"hostname":"HotTubTimeMachine","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-05-17T12:56:18.131Z","pid":682,"hostname":"HotTubTimeMachine","msg":"Finish ensuring permissions in 4ms"}
+{"level":30,"time":"2021-05-17T12:56:19.206Z","pid":682,"hostname":"HotTubTimeMachine","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-05-17T12:56:19.210Z","pid":682,"hostname":"HotTubTimeMachine","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-05-17T12:56:19.210Z","pid":682,"hostname":"HotTubTimeMachine","msg":"showing main window"}
+{"level":30,"time":"2021-05-17T12:56:19.652Z","pid":682,"hostname":"HotTubTimeMachine","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-05-17T12:56:19.684Z","pid":682,"hostname":"HotTubTimeMachine","msg":"App loaded - time: 1708"}
+{"level":30,"time":"2021-05-17T12:56:19.685Z","pid":682,"hostname":"HotTubTimeMachine","msg":"SQL init - time: 43"}
+{"level":30,"time":"2021-05-17T12:56:19.685Z","pid":682,"hostname":"HotTubTimeMachine","msg":"Preload - time: 647"}
+{"level":30,"time":"2021-05-17T12:56:19.685Z","pid":682,"hostname":"HotTubTimeMachine","msg":"WebSocket connect - time: 618"}
+{"level":30,"time":"2021-05-17T12:56:19.685Z","pid":682,"hostname":"HotTubTimeMachine","msg":"Processed count: 0"}
+{"level":30,"time":"2021-05-17T12:56:19.685Z","pid":682,"hostname":"HotTubTimeMachine","msg":"Messages per second: 0"}
+{"level":30,"time":"2021-05-17T12:56:19.713Z","pid":682,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1718,\"height\":1390,\"x\":2618,\"y\":50}"}
+{"level":30,"time":"2021-05-17T12:56:19.713Z","pid":682,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-17T12:56:29.723Z","pid":682,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-17T12:56:29.724Z","pid":682,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-17T19:22:22.331Z","pid":704,"hostname":"HotTubTimeMachine","msg":"app ready"}
+{"level":30,"time":"2021-05-17T19:22:22.331Z","pid":704,"hostname":"HotTubTimeMachine","msg":"starting version 5.1.0"}
+{"level":30,"time":"2021-05-17T19:22:22.331Z","pid":704,"hostname":"HotTubTimeMachine","msg":"media access status"}
+{"level":30,"time":"2021-05-17T19:22:22.341Z","pid":704,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-17T19:22:22.342Z","pid":704,"hostname":"HotTubTimeMachine","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1145,\"height\":1390,\"minWidth\":680,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"enableRemoteModule\":true,\"preload\":\"/usr/lib/signal-desktop/resources/app.asar/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"/usr/lib/signal-desktop/resources/app.asar/images/signal-logo-desktop-linux.png\",\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-17T19:22:22.385Z","pid":704,"hostname":"HotTubTimeMachine","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-05-17T19:22:22.385Z","pid":704,"hostname":"HotTubTimeMachine","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-05-17T19:22:22.385Z","pid":704,"hostname":"HotTubTimeMachine","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-05-17T19:22:22.392Z","pid":704,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-17T19:22:22.401Z","pid":704,"hostname":"HotTubTimeMachine","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-05-17T19:22:22.403Z","pid":704,"hostname":"HotTubTimeMachine","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-05-17T19:22:22.404Z","pid":704,"hostname":"HotTubTimeMachine","msg":"Finish ensuring permissions in 2ms"}
+{"level":30,"time":"2021-05-17T19:22:23.465Z","pid":704,"hostname":"HotTubTimeMachine","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-05-17T19:22:23.470Z","pid":704,"hostname":"HotTubTimeMachine","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-05-17T19:22:23.470Z","pid":704,"hostname":"HotTubTimeMachine","msg":"showing main window"}
+{"level":30,"time":"2021-05-17T19:22:23.935Z","pid":704,"hostname":"HotTubTimeMachine","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-05-17T19:22:23.965Z","pid":704,"hostname":"HotTubTimeMachine","msg":"App loaded - time: 1718"}
+{"level":30,"time":"2021-05-17T19:22:23.965Z","pid":704,"hostname":"HotTubTimeMachine","msg":"SQL init - time: 49"}
+{"level":30,"time":"2021-05-17T19:22:23.965Z","pid":704,"hostname":"HotTubTimeMachine","msg":"Preload - time: 623"}
+{"level":30,"time":"2021-05-17T19:22:23.965Z","pid":704,"hostname":"HotTubTimeMachine","msg":"WebSocket connect - time: 663"}
+{"level":30,"time":"2021-05-17T19:22:23.965Z","pid":704,"hostname":"HotTubTimeMachine","msg":"Processed count: 0"}
+{"level":30,"time":"2021-05-17T19:22:23.965Z","pid":704,"hostname":"HotTubTimeMachine","msg":"Messages per second: 0"}
+{"level":30,"time":"2021-05-17T19:22:23.972Z","pid":704,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1718,\"height\":1390,\"x\":2618,\"y\":50}"}
+{"level":30,"time":"2021-05-17T19:22:23.972Z","pid":704,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-17T19:22:24.881Z","pid":704,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-17T19:22:24.881Z","pid":704,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-17T21:27:56.173Z","pid":704,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-17T21:27:56.174Z","pid":704,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-17T21:27:58.021Z","pid":704,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-17T21:27:58.021Z","pid":704,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-17T21:29:25.048Z","pid":704,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-17T21:29:25.049Z","pid":704,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-18T20:11:40.316Z","pid":805,"hostname":"HotTubTimeMachine","msg":"app ready"}
+{"level":30,"time":"2021-05-18T20:11:40.316Z","pid":805,"hostname":"HotTubTimeMachine","msg":"starting version 5.1.0"}
+{"level":30,"time":"2021-05-18T20:11:40.316Z","pid":805,"hostname":"HotTubTimeMachine","msg":"media access status"}
+{"level":30,"time":"2021-05-18T20:11:40.326Z","pid":805,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-18T20:11:40.327Z","pid":805,"hostname":"HotTubTimeMachine","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1145,\"height\":1390,\"minWidth\":680,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"enableRemoteModule\":true,\"preload\":\"/usr/lib/signal-desktop/resources/app.asar/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"/usr/lib/signal-desktop/resources/app.asar/images/signal-logo-desktop-linux.png\",\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-18T20:11:40.369Z","pid":805,"hostname":"HotTubTimeMachine","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-05-18T20:11:40.369Z","pid":805,"hostname":"HotTubTimeMachine","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-05-18T20:11:40.369Z","pid":805,"hostname":"HotTubTimeMachine","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-05-18T20:11:40.377Z","pid":805,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-18T20:11:40.385Z","pid":805,"hostname":"HotTubTimeMachine","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-05-18T20:11:40.388Z","pid":805,"hostname":"HotTubTimeMachine","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-05-18T20:11:40.389Z","pid":805,"hostname":"HotTubTimeMachine","msg":"Finish ensuring permissions in 4ms"}
+{"level":30,"time":"2021-05-18T20:11:41.492Z","pid":805,"hostname":"HotTubTimeMachine","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-05-18T20:11:41.497Z","pid":805,"hostname":"HotTubTimeMachine","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-05-18T20:11:41.497Z","pid":805,"hostname":"HotTubTimeMachine","msg":"showing main window"}
+{"level":30,"time":"2021-05-18T20:11:41.952Z","pid":805,"hostname":"HotTubTimeMachine","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-05-18T20:11:41.974Z","pid":805,"hostname":"HotTubTimeMachine","msg":"App loaded - time: 1749"}
+{"level":30,"time":"2021-05-18T20:11:41.974Z","pid":805,"hostname":"HotTubTimeMachine","msg":"SQL init - time: 48"}
+{"level":30,"time":"2021-05-18T20:11:41.974Z","pid":805,"hostname":"HotTubTimeMachine","msg":"Preload - time: 638"}
+{"level":30,"time":"2021-05-18T20:11:41.974Z","pid":805,"hostname":"HotTubTimeMachine","msg":"WebSocket connect - time: 677"}
+{"level":30,"time":"2021-05-18T20:11:41.974Z","pid":805,"hostname":"HotTubTimeMachine","msg":"Processed count: 0"}
+{"level":30,"time":"2021-05-18T20:11:41.974Z","pid":805,"hostname":"HotTubTimeMachine","msg":"Messages per second: 0"}
+{"level":30,"time":"2021-05-18T20:11:42.004Z","pid":805,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1718,\"height\":1390,\"x\":2618,\"y\":50}"}
+{"level":30,"time":"2021-05-18T20:11:42.004Z","pid":805,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-18T20:11:42.749Z","pid":805,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-18T20:11:42.749Z","pid":805,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-18T20:22:07.615Z","pid":805,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1416,\"x\":3191,\"y\":24}"}
+{"level":30,"time":"2021-05-18T20:22:07.616Z","pid":805,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-18T20:32:08.462Z","pid":677,"hostname":"HotTubTimeMachine","msg":"app ready"}
+{"level":30,"time":"2021-05-18T20:32:08.462Z","pid":677,"hostname":"HotTubTimeMachine","msg":"starting version 5.1.0"}
+{"level":30,"time":"2021-05-18T20:32:08.462Z","pid":677,"hostname":"HotTubTimeMachine","msg":"media access status"}
+{"level":30,"time":"2021-05-18T20:32:08.472Z","pid":677,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-18T20:32:08.473Z","pid":677,"hostname":"HotTubTimeMachine","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1145,\"height\":1416,\"minWidth\":680,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"enableRemoteModule\":true,\"preload\":\"/usr/lib/signal-desktop/resources/app.asar/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"/usr/lib/signal-desktop/resources/app.asar/images/signal-logo-desktop-linux.png\",\"x\":3191,\"y\":24}"}
+{"level":30,"time":"2021-05-18T20:32:08.515Z","pid":677,"hostname":"HotTubTimeMachine","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-05-18T20:32:08.515Z","pid":677,"hostname":"HotTubTimeMachine","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-05-18T20:32:08.515Z","pid":677,"hostname":"HotTubTimeMachine","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-05-18T20:32:08.524Z","pid":677,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-18T20:32:08.531Z","pid":677,"hostname":"HotTubTimeMachine","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-05-18T20:32:08.533Z","pid":677,"hostname":"HotTubTimeMachine","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-05-18T20:32:08.534Z","pid":677,"hostname":"HotTubTimeMachine","msg":"Finish ensuring permissions in 3ms"}
+{"level":30,"time":"2021-05-18T20:32:09.641Z","pid":677,"hostname":"HotTubTimeMachine","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-05-18T20:32:09.649Z","pid":677,"hostname":"HotTubTimeMachine","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-05-18T20:32:09.649Z","pid":677,"hostname":"HotTubTimeMachine","msg":"showing main window"}
+{"level":30,"time":"2021-05-18T20:32:10.154Z","pid":677,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1718,\"height\":1390,\"x\":2618,\"y\":50}"}
+{"level":30,"time":"2021-05-18T20:32:10.154Z","pid":677,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-18T20:32:12.120Z","pid":677,"hostname":"HotTubTimeMachine","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-05-18T20:32:12.154Z","pid":677,"hostname":"HotTubTimeMachine","msg":"App loaded - time: 3762"}
+{"level":30,"time":"2021-05-18T20:32:12.154Z","pid":677,"hostname":"HotTubTimeMachine","msg":"SQL init - time: 45"}
+{"level":30,"time":"2021-05-18T20:32:12.154Z","pid":677,"hostname":"HotTubTimeMachine","msg":"Preload - time: 669"}
+{"level":30,"time":"2021-05-18T20:32:12.154Z","pid":677,"hostname":"HotTubTimeMachine","msg":"WebSocket connect - time: 2669"}
+{"level":30,"time":"2021-05-18T20:32:12.154Z","pid":677,"hostname":"HotTubTimeMachine","msg":"Processed count: 0"}
+{"level":30,"time":"2021-05-18T20:32:12.154Z","pid":677,"hostname":"HotTubTimeMachine","msg":"Messages per second: 0"}
+{"level":30,"time":"2021-05-18T20:32:20.591Z","pid":677,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1143,\"height\":1390,\"x\":2044,\"y\":50}"}
+{"level":30,"time":"2021-05-18T20:32:20.591Z","pid":677,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-18T20:32:23.363Z","pid":677,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-18T20:32:23.363Z","pid":677,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-18T20:57:54.598Z","pid":677,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-18T20:57:54.599Z","pid":677,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-18T20:59:01.964Z","pid":677,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-18T20:59:01.964Z","pid":677,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T08:45:36.685Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"app ready"}
+{"level":30,"time":"2021-05-19T08:45:36.685Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"starting version 5.1.0"}
+{"level":30,"time":"2021-05-19T08:45:36.685Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"media access status"}
+{"level":30,"time":"2021-05-19T08:45:36.696Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-19T08:45:36.696Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1145,\"height\":1390,\"minWidth\":680,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"enableRemoteModule\":true,\"preload\":\"/usr/lib/signal-desktop/resources/app.asar/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"/usr/lib/signal-desktop/resources/app.asar/images/signal-logo-desktop-linux.png\",\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-19T08:45:36.756Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-05-19T08:45:36.756Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-05-19T08:45:36.756Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-05-19T08:45:36.769Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-19T08:45:36.787Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-05-19T08:45:36.790Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-05-19T08:45:36.791Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Finish ensuring permissions in 4ms"}
+{"level":30,"time":"2021-05-19T08:45:37.845Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-05-19T08:45:37.849Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-05-19T08:45:37.849Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"showing main window"}
+{"level":30,"time":"2021-05-19T08:45:38.271Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-05-19T08:45:38.292Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"App loaded - time: 1832"}
+{"level":30,"time":"2021-05-19T08:45:38.292Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"SQL init - time: 43"}
+{"level":30,"time":"2021-05-19T08:45:38.292Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Preload - time: 606"}
+{"level":30,"time":"2021-05-19T08:45:38.292Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"WebSocket connect - time: 627"}
+{"level":30,"time":"2021-05-19T08:45:38.292Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Processed count: 0"}
+{"level":30,"time":"2021-05-19T08:45:38.292Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Messages per second: 0"}
+{"level":30,"time":"2021-05-19T08:45:38.351Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1718,\"height\":1390,\"x\":2618,\"y\":50}"}
+{"level":30,"time":"2021-05-19T08:45:38.351Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T08:45:48.764Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1390,\"x\":3191,\"y\":50}"}
+{"level":30,"time":"2021-05-19T08:45:48.765Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:03:31.194Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1146,\"height\":1414,\"x\":3190,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:03:31.195Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:03:59.739Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1137,\"height\":1414,\"x\":3199,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:03:59.740Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:04:05.946Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1137,\"height\":1414,\"x\":3199,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:04:05.947Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:04:19.158Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1414,\"x\":3191,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:04:19.158Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:04:35.133Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1142,\"height\":1414,\"x\":3194,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:04:35.133Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:04:42.001Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1142,\"height\":1414,\"x\":3194,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:04:42.002Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:04:47.572Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1142,\"height\":1414,\"x\":3194,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:04:47.573Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:05:04.981Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1142,\"height\":1414,\"x\":3194,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:05:04.982Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:06:19.431Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1414,\"x\":3191,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:06:19.432Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:06:50.526Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1414,\"x\":3191,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:06:50.527Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:06:59.235Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1414,\"x\":3191,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:06:59.235Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:07:00.062Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1718,\"height\":1414,\"x\":2618,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:07:00.063Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:07:08.538Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1414,\"x\":3191,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:07:08.539Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:07:27.399Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1414,\"x\":3191,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:07:27.399Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:07:35.769Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1414,\"x\":3191,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:07:35.769Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:07:44.507Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1414,\"x\":3191,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:07:44.507Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:09:41.302Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1414,\"x\":3191,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:09:41.302Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:09:59.791Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1414,\"x\":3191,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:09:59.791Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:10:17.928Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1145,\"height\":1414,\"x\":3191,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:10:17.929Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:10:48.480Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1142,\"height\":1414,\"x\":3194,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:10:48.481Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:11:19.860Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1144,\"height\":1414,\"x\":3192,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:11:19.860Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:14:15.266Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1144,\"height\":1440,\"x\":3192,\"y\":0}"}
+{"level":30,"time":"2021-05-19T09:14:15.267Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T09:42:15.042Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1144,\"height\":1414,\"x\":3192,\"y\":26}"}
+{"level":30,"time":"2021-05-19T09:42:15.043Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T10:55:02.047Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2021-05-19T10:55:21.653Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"ts/sql/main: slow query saveMessage duration=16ms"}
+{"level":30,"time":"2021-05-19T10:56:06.836Z","pid":4390,"hostname":"HotTubTimeMachine","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2021-05-19T11:00:01.333Z","pid":713,"hostname":"HotTubTimeMachine","msg":"app ready"}
+{"level":30,"time":"2021-05-19T11:00:01.333Z","pid":713,"hostname":"HotTubTimeMachine","msg":"starting version 5.1.0"}
+{"level":30,"time":"2021-05-19T11:00:01.333Z","pid":713,"hostname":"HotTubTimeMachine","msg":"media access status"}
+{"level":30,"time":"2021-05-19T11:00:01.344Z","pid":713,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-19T11:00:01.344Z","pid":713,"hostname":"HotTubTimeMachine","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1144,\"height\":1414,\"minWidth\":680,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"enableRemoteModule\":true,\"preload\":\"/usr/lib/signal-desktop/resources/app.asar/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"/usr/lib/signal-desktop/resources/app.asar/images/signal-logo-desktop-linux.png\",\"x\":3192,\"y\":26}"}
+{"level":30,"time":"2021-05-19T11:00:01.409Z","pid":713,"hostname":"HotTubTimeMachine","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-05-19T11:00:01.409Z","pid":713,"hostname":"HotTubTimeMachine","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-05-19T11:00:01.409Z","pid":713,"hostname":"HotTubTimeMachine","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-05-19T11:00:01.419Z","pid":713,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-19T11:00:01.424Z","pid":713,"hostname":"HotTubTimeMachine","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-05-19T11:00:01.429Z","pid":713,"hostname":"HotTubTimeMachine","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-05-19T11:00:01.430Z","pid":713,"hostname":"HotTubTimeMachine","msg":"Finish ensuring permissions in 6ms"}
+{"level":30,"time":"2021-05-19T11:00:02.491Z","pid":713,"hostname":"HotTubTimeMachine","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-05-19T11:00:02.502Z","pid":713,"hostname":"HotTubTimeMachine","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-05-19T11:00:02.502Z","pid":713,"hostname":"HotTubTimeMachine","msg":"showing main window"}
+{"level":30,"time":"2021-05-19T11:00:02.960Z","pid":713,"hostname":"HotTubTimeMachine","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-05-19T11:00:02.983Z","pid":713,"hostname":"HotTubTimeMachine","msg":"App loaded - time: 1724"}
+{"level":30,"time":"2021-05-19T11:00:02.983Z","pid":713,"hostname":"HotTubTimeMachine","msg":"SQL init - time: 42"}
+{"level":30,"time":"2021-05-19T11:00:02.983Z","pid":713,"hostname":"HotTubTimeMachine","msg":"Preload - time: 619"}
+{"level":30,"time":"2021-05-19T11:00:02.983Z","pid":713,"hostname":"HotTubTimeMachine","msg":"WebSocket connect - time: 671"}
+{"level":30,"time":"2021-05-19T11:00:02.983Z","pid":713,"hostname":"HotTubTimeMachine","msg":"Processed count: 0"}
+{"level":30,"time":"2021-05-19T11:00:02.983Z","pid":713,"hostname":"HotTubTimeMachine","msg":"Messages per second: 0"}
+{"level":30,"time":"2021-05-19T11:00:03.109Z","pid":713,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1144,\"height\":1414,\"x\":3192,\"y\":26}"}
+{"level":30,"time":"2021-05-19T11:00:03.109Z","pid":713,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T17:49:06.284Z","pid":669,"hostname":"HotTubTimeMachine","msg":"app ready"}
+{"level":30,"time":"2021-05-19T17:49:06.285Z","pid":669,"hostname":"HotTubTimeMachine","msg":"starting version 5.1.0"}
+{"level":30,"time":"2021-05-19T17:49:06.285Z","pid":669,"hostname":"HotTubTimeMachine","msg":"media access status"}
+{"level":30,"time":"2021-05-19T17:49:06.296Z","pid":669,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-19T17:49:06.297Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1144,\"height\":1414,\"minWidth\":680,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"enableRemoteModule\":true,\"preload\":\"/usr/lib/signal-desktop/resources/app.asar/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"/usr/lib/signal-desktop/resources/app.asar/images/signal-logo-desktop-linux.png\",\"x\":3192,\"y\":26}"}
+{"level":30,"time":"2021-05-19T17:49:06.394Z","pid":669,"hostname":"HotTubTimeMachine","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-05-19T17:49:06.394Z","pid":669,"hostname":"HotTubTimeMachine","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-05-19T17:49:06.394Z","pid":669,"hostname":"HotTubTimeMachine","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-05-19T17:49:06.401Z","pid":669,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-19T17:49:06.409Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-05-19T17:49:06.412Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-05-19T17:49:06.413Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Finish ensuring permissions in 3ms"}
+{"level":30,"time":"2021-05-19T17:49:07.428Z","pid":669,"hostname":"HotTubTimeMachine","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-05-19T17:49:07.432Z","pid":669,"hostname":"HotTubTimeMachine","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-05-19T17:49:07.433Z","pid":669,"hostname":"HotTubTimeMachine","msg":"showing main window"}
+{"level":30,"time":"2021-05-19T17:49:07.959Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1717,\"height\":1414,\"x\":2619,\"y\":26}"}
+{"level":30,"time":"2021-05-19T17:49:07.959Z","pid":669,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T17:49:08.269Z","pid":669,"hostname":"HotTubTimeMachine","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-05-19T17:49:08.314Z","pid":669,"hostname":"HotTubTimeMachine","msg":"App loaded - time: 2118"}
+{"level":30,"time":"2021-05-19T17:49:08.314Z","pid":669,"hostname":"HotTubTimeMachine","msg":"SQL init - time: 55"}
+{"level":30,"time":"2021-05-19T17:49:08.314Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Preload - time: 596"}
+{"level":30,"time":"2021-05-19T17:49:08.314Z","pid":669,"hostname":"HotTubTimeMachine","msg":"WebSocket connect - time: 661"}
+{"level":30,"time":"2021-05-19T17:49:08.314Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Processed count: 25"}
+{"level":30,"time":"2021-05-19T17:49:08.314Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Messages per second: 29.036004645760745"}
+{"level":30,"time":"2021-05-19T17:49:18.063Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1144,\"height\":1414,\"x\":3192,\"y\":26}"}
+{"level":30,"time":"2021-05-19T17:49:18.064Z","pid":669,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T18:12:02.706Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1144,\"height\":1440,\"x\":3192,\"y\":0}"}
+{"level":30,"time":"2021-05-19T18:12:02.707Z","pid":669,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T18:19:21.343Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1091,\"height\":1354,\"x\":3202,\"y\":43}"}
+{"level":30,"time":"2021-05-19T18:19:21.343Z","pid":669,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T18:19:31.222Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1134,\"height\":1440,\"x\":3202,\"y\":0}"}
+{"level":30,"time":"2021-05-19T18:19:31.223Z","pid":669,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T18:19:42.359Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1061,\"height\":1294,\"x\":3202,\"y\":73}"}
+{"level":30,"time":"2021-05-19T18:19:42.359Z","pid":669,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T18:19:55.813Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1,\"height\":1,\"x\":3692,\"y\":1053}"}
+{"level":30,"time":"2021-05-19T18:19:55.813Z","pid":669,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T18:21:01.209Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1116,\"height\":1394,\"x\":3197,\"y\":23}"}
+{"level":30,"time":"2021-05-19T18:21:01.209Z","pid":669,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T18:23:03.196Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1106,\"height\":1374,\"x\":3197,\"y\":33}"}
+{"level":30,"time":"2021-05-19T18:23:03.197Z","pid":669,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T18:23:09.243Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1121,\"height\":1404,\"x\":3197,\"y\":18}"}
+{"level":30,"time":"2021-05-19T18:23:09.244Z","pid":669,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T18:23:13.587Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1126,\"height\":1414,\"x\":3197,\"y\":13}"}
+{"level":30,"time":"2021-05-19T18:23:13.588Z","pid":669,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-05-19T19:19:01.496Z","pid":669,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1126,\"height\":1388,\"x\":3197,\"y\":39}"}
+{"level":30,"time":"2021-05-19T19:19:01.496Z","pid":669,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}
+                                                                                                                                                                                                                                                                                                                                                                                                   {"level":30,"time":"2021-05-20T15:57:57.173Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"app ready"}
+{"level":30,"time":"2021-05-20T15:57:57.173Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"starting version 5.1.0"}
+{"level":30,"time":"2021-05-20T15:57:57.174Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"media access status"}
+{"level":30,"time":"2021-05-20T15:57:57.185Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-20T15:57:57.186Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1126,\"height\":1388,\"minWidth\":680,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"enableRemoteModule\":true,\"preload\":\"/usr/lib/signal-desktop/resources/app.asar/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false},\"icon\":\"/usr/lib/signal-desktop/resources/app.asar/images/signal-logo-desktop-linux.png\",\"x\":3197,\"y\":39}"}
+{"level":30,"time":"2021-05-20T15:57:57.253Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-05-20T15:57:57.253Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-05-20T15:57:57.253Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-05-20T15:57:57.263Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-05-20T15:57:57.272Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-05-20T15:57:57.275Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-05-20T15:57:57.275Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"Finish ensuring permissions in 3ms"}
+{"level":30,"time":"2021-05-20T15:57:58.632Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-05-20T15:57:58.636Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-05-20T15:57:58.636Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"showing main window"}
+{"level":30,"time":"2021-05-20T15:57:59.322Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-05-20T15:57:59.342Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"App loaded - time: 2298"}
+{"level":30,"time":"2021-05-20T15:57:59.342Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"SQL init - time: 70"}
+{"level":30,"time":"2021-05-20T15:57:59.342Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"Preload - time: 849"}
+{"level":30,"time":"2021-05-20T15:57:59.342Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"WebSocket connect - time: 813"}
+{"level":30,"time":"2021-05-20T15:57:59.342Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"Processed count: 3"}
+{"level":30,"time":"2021-05-20T15:57:59.342Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"Messages per second: 4.716981132075472"}
+{"level":30,"time":"2021-05-20T15:57:59.613Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"Updating BrowserWindow config: {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1126,\"height\":1388,\"x\":3197,\"y\":39}"}
+{"level":30,"time":"2021-05-20T15:57:59.614Z","pid":3589,"hostname":"HotTubTimeMachine","msg":"config/set: Saving ephemeral config to disk"}

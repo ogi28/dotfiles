@@ -1,0 +1,118 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="7" l="1621180411767" />
+    </e>
+    <e n="$Undo">
+      <i c="1" l="1621180409557" />
+    </e>
+    <e n="ActivateDatabaseToolWindow">
+      <i c="1" l="1621091306146" />
+    </e>
+    <e n="ActivateProjectToolWindow">
+      <i c="1" l="1621091306163" />
+    </e>
+    <e n="CodeCompletion">
+      <i c="2" l="1621074992717" />
+    </e>
+    <e n="Console.Jdbc.Execute">
+      <i c="6" l="1621180427664" />
+    </e>
+    <e n="Console.TableResult.AddRow">
+      <i c="1" l="1621185861621" />
+    </e>
+    <e n="Console.TableResult.DeleteRows">
+      <i c="1" l="1621086511469" />
+    </e>
+    <e n="Console.TableResult.EditValue">
+      <i c="1" l="1621086450961" />
+    </e>
+    <e n="Console.TableResult.PreviewDml">
+      <i c="1" l="1621086550010" />
+    </e>
+    <e n="Console.TableResult.Reload">
+      <i c="10" l="1621205883724" />
+    </e>
+    <e n="Console.TableResult.Submit">
+      <i c="1" l="1621185875067" />
+    </e>
+    <e n="DatabaseView.AddActionGroupPopup">
+      <i c="6" l="1621074961940" />
+    </e>
+    <e n="DatabaseView.CloseConnectionAction">
+      <i c="2" l="1621074912221" />
+    </e>
+    <e n="DatabaseView.DropAction">
+      <i c="1" l="1621074917752" />
+    </e>
+    <e n="DatabaseView.PropertiesAction">
+      <i c="2" l="1620924724169" />
+    </e>
+    <e n="DatabaseView.Refresh">
+      <i c="4" l="1621078920079" />
+    </e>
+    <e n="EditSource">
+      <i c="3" l="1621086545634" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="63" l="1621180381667" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="1" l="1620921713245" />
+    </e>
+    <e n="EditorCopy">
+      <i c="3" l="1621180412332" />
+    </e>
+    <e n="EditorDown">
+      <i c="1" l="1620921752556" />
+    </e>
+    <e n="EditorEnter">
+      <i c="3" l="1621180414509" />
+    </e>
+    <e n="EditorPaste">
+      <i c="4" l="1621180413500" />
+    </e>
+    <e n="EditorTab">
+      <i c="1" l="1621180368246" />
+    </e>
+    <e n="Jdbc.OpenConsole.New.Generate">
+      <i c="1" l="1621180406965" />
+    </e>
+    <e n="NewDatabaseProject">
+      <i c="1" l="1620922342066" />
+    </e>
+    <e n="NewElement">
+      <i c="1" l="1621074973943" />
+    </e>
+    <e n="NewSqlFile">
+      <i c="1" l="1620921679395" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="2" l="1621081248277" />
+    </e>
+    <e n="Table-selectPreviousColumn">
+      <i c="1" l="1621186110376" />
+    </e>
+    <e n="WelcomeScreen.CreateDirectoryProject">
+      <i c="1" l="1620919580575" />
+    </e>
+    <e n="com.intellij.database.dataSource.LocalDataSourceManager$2">
+      <i c="5" l="1621074977555" />
+    </e>
+    <e n="com.intellij.database.run.ui.grid.editors.GridCellEditorTextField$3">
+      <i c="2" l="1621185869753" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="2" l="1621081250777" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$4">
+      <i c="2" l="1621210957519" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="3" l="1621186372511" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
+      <i c="2" l="1621081250328" />
+    </e>
+  </component>
+</application>

@@ -1,0 +1,26 @@
+2021/05/14-10:17:18.725 134c Reusing MANIFEST /home/john/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/05/14-10:17:18.725 134c Recovering log #6
+2021/05/14-10:17:18.725 134c Reusing old log /home/john/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/000006.log 
+2021/05/14-10:17:18.853 134c Level-0 table #11: started
+2021/05/14-10:17:18.855 134c Level-0 table #11: 454 bytes OK
+2021/05/14-10:17:18.857 134c Delete type=0 #6
+2021/05/14-10:17:18.857 134c Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/05/14-10:17:20.856 1349 Level-0 table #13: started
+2021/05/14-10:17:20.861 1349 Level-0 table #13: 218 bytes OK
+2021/05/14-10:17:20.864 1349 Delete type=0 #10
+2021/05/14-10:17:20.864 1349 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 40 : 0
+2021/05/14-10:17:20.864 1349 Compacting 1@0 + 1@1 files
+2021/05/14-10:17:20.867 1349 Generated table #14@0: 2 keys, 196 bytes
+2021/05/14-10:17:20.867 1349 Compacted 1@0 + 1@1 files => 196 bytes
+2021/05/14-10:17:20.870 1349 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/05/14-10:17:20.870 1349 Delete type=2 #11
+2021/05/14-10:17:20.870 1349 Delete type=2 #13
+2021/05/14-10:17:20.871 1349 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 40 : 0 .. (end); will stop at (end)
+2021/05/14-10:17:20.871 1349 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x03' @ 35 : 0
+2021/05/14-10:17:20.871 1349 Compacting 1@1 + 1@2 files
+2021/05/14-10:17:20.873 1349 Generated table #15@1: 4 keys, 221 bytes
+2021/05/14-10:17:20.873 1349 Compacted 1@1 + 1@2 files => 221 bytes
+2021/05/14-10:17:20.876 1349 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/14-10:17:20.877 1349 Delete type=2 #14
+2021/05/14-10:17:20.877 1349 Delete type=2 #8
+2021/05/14-10:17:20.877 1349 Manual compaction at level-1 from '\x00\x00\x00\x00\x03' @ 35 : 0 .. (end); will stop at (end)
