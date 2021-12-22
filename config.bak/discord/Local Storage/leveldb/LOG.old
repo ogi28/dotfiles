@@ -1,6 +1,0 @@
-2021/05/19-17:49:05.930 31e Reusing MANIFEST /home/john/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2021/05/19-17:49:05.931 31e Recovering log #190
-2021/05/19-17:49:05.932 31e Reusing old log /home/john/.config/discord/Local Storage/leveldb/000190.log 
-2021/05/19-19:19:08.226 139bb Level-0 table #193: started
-2021/05/19-19:19:08.232 139bb Level-0 table #193: 29207 bytes OK
-2021/05/19-19:19:08.235 139bb Delete type=0 #190

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="DBE_MODULE" version="4">
-  <component name="NewModuleRootManager">
-    <content url="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data" />
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>

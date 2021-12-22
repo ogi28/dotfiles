@@ -1,8 +1,0 @@
-2021/05/13-17:26:09.896 10597 Reusing MANIFEST /home/john/.config/PassVault/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2021/05/13-17:26:09.896 10597 Recovering log #4
-2021/05/13-17:26:09.896 10597 Reusing old log /home/john/.config/PassVault/IndexedDB/file__0.indexeddb.leveldb/000004.log 
-2021/05/13-17:26:11.900 1064a Level-0 table #8: started
-2021/05/13-17:26:11.900 1064a Level-0 table #8: 0 bytes OK
-2021/05/13-17:26:11.902 1064a Delete type=0 #4
-2021/05/13-17:26:11.902 1064a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/05/13-17:26:11.902 1064a Manual compaction at level-1 from (begin) .. (end); will stop at (end)
