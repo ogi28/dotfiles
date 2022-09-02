@@ -1,2 +1,4 @@
 # dotfiles
-Transfer
+
+A nord rice for my ThinkPad
+
