@@ -1,6 +1,7 @@
 # dotfiles
 
-A nord rice for my ThinkPad
+A fun project to make my computer look better.
+Featuring i3, polybar and lunarvim with nord theme.
 
 ## Screenshots
 ![](https://github.com/ogi28/dotfiles/blob/main/Screenshots/Fullscreen.png)
