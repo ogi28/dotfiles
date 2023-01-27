@@ -10,18 +10,22 @@ an executable
 
 -- general
 lvim.log.level = "warn"
-lvim.format_on_save = false
--- lvim.colorscheme = "onedarker"
+lvim.format_on_save.enabled = false
+-- lvim.colorscheme = "lunar"
 lvim.colorscheme = "nordfox"
-lvim.line_wrap_cursor_movement = false -- fuck this who likes this
-vim.opt.whichwrap = "" --Top command doesn't work
+vim.opt.whichwrap = ""
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
+
+-- Disable auto comment
+vim.cmd [[autocmd BufWinEnter * :set formatoptions-=c formatoptions-=r formatoptions-=o]]
 
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
 -- add your own keymapping
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
+-- lvim.keys.normal_mode["<S-l>"] = ":BufferLineCycleNext<CR>"
+-- lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
 -- unmap a default keymapping
 -- vim.keymap.del("n", "<C-Up>")
 -- override a default keymapping
@@ -45,6 +49,10 @@ lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 --   },
 -- }
 
+-- Change theme settings
+-- lvim.builtin.theme.options.dim_inactive = true
+-- lvim.builtin.theme.options.style = "storm"
+
 -- Use which-key to add extra bindings with the leader-key prefix
 -- lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
 -- lvim.builtin.which_key.mappings["t"] = {
@@ -54,38 +62,33 @@ lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 --   d = { "<cmd>Trouble document_diagnostics<cr>", "Diagnostics" },
 --   q = { "<cmd>Trouble quickfix<cr>", "QuickFix" },
 --   l = { "<cmd>Trouble loclist<cr>", "LocationList" },
---   w = { "<cmd>Trouble workspace_diagnostics<cr>", "Wordspace Diagnostics" },
+--   w = { "<cmd>Trouble workspace_diagnostics<cr>", "Workspace Diagnostics" },
 -- }
+
+-- TODO: User Config for predefined plugins
+-- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
+lvim.builtin.alpha.active = true
+lvim.builtin.alpha.mode = "dashboard"
+lvim.builtin.terminal.active = true
+lvim.builtin.nvimtree.setup.view.side = "left"
+lvim.builtin.nvimtree.setup.renderer.icons.show.git = true
 
 lvim.builtin.which_key.mappings["z"] = {
   name = "+Zen",
   t = { "<cmd>Twilight<CR>", "Twilight" },
   z = { "<cmd>ZenMode<CR>", "Zen" },
 }
-
--- lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
-lvim.builtin.which_key.mappings["n"] = { "<cmd>set rnu!<CR>", "RelativeNumber" }
-lvim.builtin.lualine.style           = "default"
-lvim.builtin.lualine.sections        = {
-  lualine_a = { 'hostname' },
-  lualine_b = { 'branch', 'diff' },
-  lualine_c = { 'filename', 'diagnostics' },
-  lualine_x = { 'filetype' },
-  lualine_y = { 'fileformat' },
-  lualine_z = { 'location' }
+lvim.builtin.which_key.mappings["r"] = {
+  name = "+Rest",
+  r = { "<Plug>RestNvim", "Rest" },
+  p = { "<Plug>RestNvimPreview", "Preview" },
+  l = { "<Plug>RestNvimLast", "Last" },
 }
 
 
+-- lvim.builtin.which_key.mappings["P"] = { "<cmd>Telescope projects<CR>", "Projects" }
+lvim.builtin.which_key.mappings["n"] = { "<cmd>set rnu!<CR>", "RelativeNumber" }
 
-
--- TODO: User Config for predefined plugins
--- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
-lvim.builtin.alpha.active = true
-lvim.builtin.alpha.mode = "dashboard"
-lvim.builtin.notify.active = true
-lvim.builtin.terminal.active = true
-lvim.builtin.nvimtree.setup.view.side = "left"
-lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
 
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
@@ -104,13 +107,13 @@ lvim.builtin.treesitter.ensure_installed = {
 }
 
 -- lvim.builtin.treesitter.ignore_install = { "haskell" }
-lvim.builtin.treesitter.highlight.enabled = true
+lvim.builtin.treesitter.highlight.enable = true
 
 -- generic LSP settings
 
 -- -- make sure server will always be installed even if the server is in skipped_servers list
 -- lvim.lsp.installer.setup.ensure_installed = {
---     "sumeko_lua",
+--     "sumneko_lua",
 --     "jsonls",
 -- }
 -- -- change UI setting of `LspInstallInfo`
@@ -123,7 +126,7 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- }
 
 -- ---@usage disable automatic installation of servers
--- lvim.lsp.automatic_servers_installation = false
+-- lvim.lsp.installer.setup.automatic_installation = false
 
 -- ---configure a server manually. !!Requires `:LvimCacheReset` to take effect!!
 -- ---see the full default list `:lua print(vim.inspect(lvim.lsp.automatic_configuration.skipped_servers))`
@@ -133,7 +136,7 @@ lvim.builtin.treesitter.highlight.enabled = true
 
 -- ---remove a server from the skipped list, e.g. eslint, or emmet_ls. !!Requires `:LvimCacheReset` to take effect!!
 -- ---`:LvimInfo` lists which server(s) are skipped for the current filetype
--- vim.tbl_map(function(server)
+-- lvim.lsp.automatic_configuration.skipped_servers = vim.tbl_filter(function(server)
 --   return server ~= "emmet_ls"
 -- end, lvim.lsp.automatic_configuration.skipped_servers)
 
@@ -182,6 +185,30 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- }
 
 -- Additional Plugins
+-- lvim.plugins = {
+--     {
+--       "folke/trouble.nvim",
+--       cmd = "TroubleToggle",
+--     },
+-- }
+
+-- Autocommands (https://neovim.io/doc/user/autocmd.html)
+-- vim.api.nvim_create_autocmd("BufEnter", {
+--   pattern = { "*.json", "*.jsonc" },
+--   -- enable wrap mode for json files only
+--   command = "setlocal wrap",
+-- })
+-- vim.api.nvim_create_autocmd("FileType", {
+--   pattern = "zsh",
+--   callback = function()
+--     -- let treesitter use bash highlight for zsh files as well
+--     require("nvim-treesitter.highlight").attach(0, "bash")
+--   end,
+-- })
+--
+--
+--
+-- Additional Plugins
 lvim.plugins = {
   --     {"folke/tokyonight.nvim"},
   --     {
@@ -202,76 +229,70 @@ lvim.plugins = {
   { 'sainnhe/gruvbox-material' },
   -- { 'jinh0/eyeliner.nvim' },
   -- {'David-Kunz/jester'},
+  {
+    "NTBBloodbath/rest.nvim",
+    requires = { "nvim-lua/plenary.nvim" },
+    config = function()
+      require("rest-nvim").setup({
+        -- Open request results in a horizontal split
+        result_split_horizontal = false,
+        -- Keep the http file buffer above|left when split horizontal|vertical
+        result_split_in_place = false,
+        -- Skip SSL verification, useful for unknown certificates
+        skip_ssl_verification = false,
+        -- Encode URL before making request
+        encode_url = true,
+        -- Highlight request on run
+        highlight = {
+          enabled = true,
+          timeout = 150,
+        },
+        result = {
+          -- toggle showing URL, HTTP info, headers at top the of result window
+          show_url = true,
+          show_http_info = true,
+          show_headers = true,
+          -- executables or functions for formatting response body [optional]
+          -- set them to nil if you want to disable them
+          formatters = {
+            json = "jq",
+            html = function(body)
+              return vim.fn.system({ "tidy", "-i", "-q", "-" }, body)
+            end
+          },
+        },
+        -- Jump to request line on run
+        jump_to_request = false,
+        env_file = '.env',
+        custom_dynamic_variables = {},
+        yank_dry_run = true,
+      })
+    end
+  },
+  {
+    "folke/trouble.nvim",
+    requires = "kyazdani42/nvim-web-devicons",
+    config = function()
+      require("trouble").setup {
+        -- your configuration comes here
+        -- or leave it empty to use the default settings
+        -- refer to the configuration section below
+      }
+    end
+  },
+  {
+    "folke/todo-comments.nvim",
+    requires = "nvim-lua/plenary.nvim",
+    config = function()
+      require("todo-comments").setup {
+        -- your configuration comes here
+        -- or leave it empty to use the default settings
+        -- refer to the configuration section below
+      }
+    end
+  }
 }
 
--- Autocommands (https://neovim.io/doc/user/autocmd.html)
--- vim.api.nvim_create_autocmd("BufEnter", {
---   pattern = { "*.json", "*.jsonc" },
---   -- enable wrap mode for json files only
---   command = "setlocal wrap",
--- })
--- vim.api.nvim_create_autocmd("FileType", {
---   pattern = "zsh",
---   callback = function()
---     -- let treesitter use bash highlight for zsh files as well
---     require("nvim-treesitter.highlight").attach(0, "bash")
---   end,
--- })
-
--- XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX XXX
-
--- lvim.builtin.dashboard.custom_header = "Hello"
-
-lvim.builtin.alpha.dashboard.section.header.val = {}
---                       :::!~!!!!!:.
---                   .xUHWH!! !!?M88WHX:.
---                 .X*#M@$!!  !X!M$$$$$$WWx:.
---                :!!!!!!?H! :!$!$$$$$$$$$$8X:
---               !!~  ~:~!! :~!$!#$$$$$$$$$$8X:
---              :!~::!H!<   ~.U$X!?R$$$$$$$$MM!
---              ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
---                !:~~~ .:!M"T#$$$$WX??#MRRMMM!
---                ~?WuxiW*`   `"#$$$$8!!!!??!!!
---              :X- M$$$$       `"T#$T~!8$WUXU~
---             :%`  ~#$$$m:        ~!~ ?$$$$$$
---           :!`.-   ~T$$$$8xx.  .xWW- ~""##*"
--- .....   -~~:<` !    ~?T#$$@@W@*?$$      /`
--- W$@@M!!! .!~~ !!     .:XUW$W!~ `"~:    :
--- #"~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`
--- :::~:!!`:X~ .: ?H.!u "$$$B$$$!W:U!T$$M~
--- .~~   :X@!.-~   ?@WTWo("*$$$W$TH$! `
--- Wi.~!X$?!-~    : ?$$$B$Wu("**$RM!
--- $R@i.~~ !     :   ~$$$$$B$$en:``
--- ?MXT@Wx.~    :     ~"##*$$$$M~
-
-lvim.builtin.alpha.dashboard.section.header.val[1] = "                       :::!~!!!!!:."
-lvim.builtin.alpha.dashboard.section.header.val[2] = "                   .xUHWH!! !!?M88WHX:."
-lvim.builtin.alpha.dashboard.section.header.val[3] = "                 .X*#M@$!!  !X!M$$$$$$WWx:."
-lvim.builtin.alpha.dashboard.section.header.val[4] = "                :!!!!!!?H! :!$!$$$$$$$$$$8X:"
-lvim.builtin.alpha.dashboard.section.header.val[5] = "               !!~  ~:~!! :~!$!#$$$$$$$$$$8X:"
-lvim.builtin.alpha.dashboard.section.header.val[6] = "              :!~::!H!<   ~.U$X!?R$$$$$$$$MM!"
-lvim.builtin.alpha.dashboard.section.header.val[7] = "              ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!"
-lvim.builtin.alpha.dashboard.section.header.val[8] = "                !:~~~ .:!M\"T#$$$$WX??#MRRMMM!"
-lvim.builtin.alpha.dashboard.section.header.val[9] = "                ~?WuxiW*`   `\"#$$$$8!!!!??!!!"
-lvim.builtin.alpha.dashboard.section.header.val[10] = "              :X- M$$$$       `\"T#$T~!8$WUXU~"
-lvim.builtin.alpha.dashboard.section.header.val[11] = "             :%`  ~#$$$m:        ~!~ ?$$$$$$"
-lvim.builtin.alpha.dashboard.section.header.val[12] = "           :!`.-   ~T$$$$8xx.  .xWW- ~\"\"##*\""
-lvim.builtin.alpha.dashboard.section.header.val[13] = ".....   -~~:<` !    ~?T#$$@@W@*?$$      /`"
-lvim.builtin.alpha.dashboard.section.header.val[14] = " W$@@M!!! .!~~ !!     .:XUW$W!~ `\"~:    :"
-lvim.builtin.alpha.dashboard.section.header.val[15] = " #\"~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`"
-lvim.builtin.alpha.dashboard.section.header.val[16] = " :::~:!!`:X~ .: ?H.!u \"$$$B$$$!W:U!T$$M~"
-lvim.builtin.alpha.dashboard.section.header.val[17] = " .~~   :X@!.-~   ?@WTWo(\"*$$$W$TH$! `"
-lvim.builtin.alpha.dashboard.section.header.val[18] = " Wi.~!X$?!-~    : ?$$$B$Wu(\"**$RM!"
-lvim.builtin.alpha.dashboard.section.header.val[19] = " $R@i.~~ !     :   ~$$$$$B$$en:``"
-lvim.builtin.alpha.dashboard.section.header.val[20] = " ?MXT@Wx.~    :     ~\"##*$$$$M~"
-lvim.builtin.alpha.dashboard.section.header.val[21] = ""
-lvim.builtin.alpha.dashboard.section.header.val[22] = ""
--- lvim.builtin.alpha.dashboard.section.header.val[23] = ""
-lvim.builtin.alpha.dashboard.section.header.val[23] = "Always code as if the guy who ends up maintaining your code"
-lvim.builtin.alpha.dashboard.section.header.val[24] = "will be a violent psychopath who knows where you live!"
-
-lvim.builtin.alpha.dashboard.section.footer.val = "Let the shenanigans begin"
--- lvim.builtin.alpha.dashboard.section.footer.val = "will be a violent psychopath who knows where you live!"
 --- XXX keybinds
 lvim.keys.normal_mode["<S-h>"] = ":bprevious<CR>"
 lvim.keys.normal_mode["<S-l>"] = ":bnext<CR>"
@@ -349,3 +370,21 @@ require('nightfox').setup({
   }
 })
 
+local lspconfig = require('lspconfig')
+local configs = require('lspconfig/configs')
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.completion.completionItem.snippetSupport = true
+
+lspconfig.emmet_ls.setup({
+  -- on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = { 'html', 'typescriptreact', 'javascriptreact', 'css', 'sass', 'scss', 'less' },
+  init_options = {
+    html = {
+      options = {
+        -- For possible options, see: https://github.com/emmetio/emmet/blob/master/src/config.ts#L79-L267
+        ["bem.enabled"] = true,
+      },
+    },
+  }
+})
