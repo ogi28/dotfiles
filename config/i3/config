@@ -312,8 +312,11 @@ exec picom
 
 
 exec_always --no-startup-id xset r rate 350 80
+# exec_always --no-startup-id xinput set-prop 18 314 1
+# exec_always --no-startup-id xinput set-prop 18 291 1
 exec_always --no-startup-id xinput set-prop 13 312 1
 exec_always --no-startup-id xinput set-prop 13 291 1
+
 # exec_always --no-startup-id feh --bg-scale ~/.Wallpapers/nordic-wallpapers/wallpapers/favs/ign_dudeOnBuilding3.png
 # exec_always --no-startup-id feh --bg-fill ~/.Wallpapers/nordic-wallpapers/wallpapers/favs/nord_scenary.png
 exec_always --no-startup-id feh --bg-fill ~/.Wallpapers/nord_buildings.png
